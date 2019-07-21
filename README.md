@@ -1,7 +1,7 @@
 # SCL008-ProyectoMoms
 Desarrollo de proyecto para la hackathon de final de bootcamp
 
-[Página actual](www.proyectomoms.com)
+[Página actual](https://www.proyectomoms.com)
 
 Clienta: Belen Muñoz
 
