@@ -2,6 +2,16 @@
   "name": "proyecto-moms-tmp",
   "version": "0.1.0",
   "private": true,
+  "description": "Desarrollo de proyecto para la hackathon de final de bootcamp",
+  "main": ".eslintrc.js",
+  "keywords": [
+    "proyecto",
+    "moms",
+    "empresas",
+    "usuarios"
+  ],
+  "author": "Stephanie Mayen, Fabiola Orellana, Laura Ramirez, Macarena Terán",
+  "license": "ISC",  
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -38,5 +48,5 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2"
-  }
+  }  
 }
