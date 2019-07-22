@@ -12,8 +12,8 @@ function App() {
     <Router>
       <header>
         <ul>
-          <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
-          <li><NavLink to="/about" exact activeClassName="active">About</NavLink></li>
+          <li><NavLink to="/SCL008-ProyectoMoms/" exact activeClassName="active">Home</NavLink></li>
+          <li><NavLink to="/SCL008-ProyectoMoms/about" exact activeClassName="active">About</NavLink></li>
         </ul>
       </header>
       <main>
