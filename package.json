@@ -12,11 +12,13 @@
   "author": "Stephanie Mayen, Fabiola Orellana, Laura Ramirez, Macarena Terán",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.0",
     "firebase": "^6.1.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.1",
