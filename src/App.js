@@ -18,9 +18,9 @@ function App() {
       </header>
       <main>
         <Switch>
-          <Route path="/" exact component={templateHome} />
-          <Route path="/about" component={templateAbout} />
-          <Route path="/formulario" component={templateForm} />
+          <Route path="/SCL008-ProyectoMoms/" exact component={templateHome} />
+          <Route path="/SCL008-ProyectoMoms/about" component={templateAbout} />
+          <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
         </Switch>
       </main>
     </Router>
