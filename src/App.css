@@ -21,3 +21,19 @@ header ul li {
 header  ul li .active{
   color:red;
 }
+
+.navbar{
+  border-bottom: solid 0.5px;
+  
+}
+
+.navbar img {
+  padding-top: 10%;
+  padding-bottom: 2%;
+  
+  width: 81px;
+  height: 37px;
+  padding-left: 40%;
+  top: 43px;
+}
+
