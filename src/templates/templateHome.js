@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './templateHome.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 class templateHome extends Component {
   render() {
@@ -13,6 +15,7 @@ class templateHome extends Component {
         <button className="join">Únete</button>
         <button className="enter">Ingresa</button>
         <span>Conoce más</span>
+        {/* <FontAwesomeIcon icon="faArrowCircleDown" /> */}
         </div>
       </React.Fragment>
     );
