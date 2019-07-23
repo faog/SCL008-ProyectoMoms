@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
@@ -14,7 +15,14 @@ class ComponentVisualButton extends Component {
 
   render() {
     return (
-      <button type="button" className={this.props.className} onClick={this.handleClick}>{this.props.name}</button>
+      <button
+        type={this.props.type ? this.props.type : 'button'}
+        className={this.props.className}
+        onClick={this.handleClick}
+      >
+        {this.props.name}
+
+      </button>
     );
   }
 }

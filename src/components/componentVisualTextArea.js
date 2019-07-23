@@ -6,12 +6,10 @@ import { Form } from 'react-bootstrap';
 class ComponentVisualTextArea extends Component {
   render() {
     return (
-      <Form>
-        <Form.Group>
-          <Form.Label>{this.props.message}</Form.Label>
-          <Form.Control as="textarea" rows="3" />
-        </Form.Group>
-      </Form>
+      <Form.Group>
+        <Form.Label>{this.props.message}</Form.Label>
+        <Form.Control as="textarea" rows="3" />
+      </Form.Group>
     );
   }
 }
