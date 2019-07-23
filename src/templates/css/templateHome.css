@@ -1,7 +1,7 @@
 
 /*Apply to all document*/
 body{
-    position: relative;
+    
     background-image: url("../../img/alexander-solodukhin-ggJRxqOEaFY-unsplash.jpg");
     background-size: 200%;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body:after {
     letter-spacing: -0.02em;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 15%;
+    padding-top: 40%;
 }
 
 .happyTalk h1{
@@ -48,15 +48,15 @@ body:after {
 }
 
 .join{
-    position: absolute;
-    width: 75%;
+    width: 70%;
     height: 45px;
     left: 12.5%;
-    top: 120%;
+    margin: 0% 15%;
     background: #F1717F;
     border-radius: 5px;
     color: #FFFFFF;
     font-size: 18px;
+    border: none;
 }
 
 .enter{

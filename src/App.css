@@ -1,5 +1,13 @@
+body{
+  margin: 0px auto;
+  padding: 0px auto;
+}
 .App {
   text-align: center;
+}
+
+header{
+  position:fixed;
 }
 
 header:after {
@@ -12,19 +20,11 @@ header ul {
   list-style:none;
 }
 
-header ul li {
-  float:left;
-  margin-right: 20px;
-  color:blue;
-}
-
 .navbar img {
-  padding-top: 10%;
-  padding-bottom: 2%;
-  width: 81px;
-  height: 37px;
-  padding-left: 40%;
-  top: 43px;
+  width:30%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px 120px;
 }
 /* Individual item */
 .bm-item {
