@@ -17,7 +17,7 @@ body:after {
     left: 0;
     background-color: rgba(53, 94, 126, 0.7); 
     width: 100%;
-    height: 185%;
+    height: 230%;
     max-height: auto;
     opacity : 0.9;
     z-index: -1;
@@ -52,7 +52,7 @@ body:after {
     width: 75%;
     height: 45px;
     left: 12.5%;
-    top: 107%;
+    top: 120%;
     background: #F1717F;
     border-radius: 5px;
     color: #FFFFFF;
@@ -64,7 +64,7 @@ body:after {
     width: 75%;
     height: 45px;
     left: 12.5%;
-    top: 123%;
+    top: 140%;
     border: white solid 0.5px;
     border-radius: 5px;
     color: #FFFFFF;
@@ -76,11 +76,18 @@ body:after {
     position: absolute;
     text-align: center;
     left: 38%;
-    top: 145%;
+    top: 180%;
     color:white;
     font-size: 18px;
 }
 
+.arrowDown{
+    position: absolute;
+    color: #F1717F;
+    font-size: 40px;
+    left: 47%;
+    top: 190%;
+}
 
 @media screen and(min-width: 320px){
 
