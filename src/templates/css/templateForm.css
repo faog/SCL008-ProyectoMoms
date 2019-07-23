@@ -1,5 +1,6 @@
 .templateform{
-	background: #EEEEEE;	
+	background: #EEEEEE;
+	padding: 5%;	
 }
 
 .templateform h3{
@@ -26,10 +27,17 @@
 	color: #F1717F;
 }
 
+.firstText{
+	display: flex;
+	justify-content: space-between;
+}
+
 Form{
 	margin: 0px 40px;
 }
-
+.form{
+	height: 100%;
+}
 .form-label {
 	padding-top:20px;
 	font-family: Montserrat;
@@ -45,7 +53,8 @@ Form{
 
 .form-control{
 	width: 100%;
-  height: 35px;
+	height: 35px;
+	margin-top: 5px;	
 	background: #FFFFFF;
 	border: 0.5px solid #355E7E;
 	box-sizing: border-box;
@@ -61,8 +70,13 @@ Form{
 	color: #C4C4C4;
 }
 
+textarea {
+	height: 80px!important;
+}
+
 .btn_appealcreate{
 	background: #F1717F;
 	border-radius: 5px;
 	width:100%;
 }
+
