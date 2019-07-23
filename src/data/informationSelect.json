@@ -1,0 +1,9 @@
+{
+	"flexibilidad": ["Horarios diferidos","Horarios libres","Teletrabajo"],
+	"carrera": ["Analista Programador", "Diseño", "Ingeniería Civil Industrial"],
+	"idioma":["Inglés", "Español"],
+	"nivel" : ["Nativo", "Avanzado", "Medio", "Básico"],	
+	"nivelEstudios": ["Técnico", "Universitario", "Magister", "Doctorado"],
+	"experiencia": ["Sin experiencia", "2 - 3 años", "3 - 5 años", "+ 8 años", "+ 10 años", "+ 15 años"],	
+	"rangoSueldo": ["$500.000 - $700.000", "$700.000 - $900.000"]	
+}
