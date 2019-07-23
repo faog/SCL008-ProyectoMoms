@@ -2,22 +2,45 @@ import React from 'react';
 import {
   BrowserRouter as Router, Route, Switch, NavLink,
 } from 'react-router-dom';
+import { slide as Menu } from 'react-burger-menu';
 import templateHome from './templates/templateHome';
 import templateAbout from './templates/templateAbout';
 import templateForm from './templates/templateForm';
 import './App.css';
 import logo from './img/1111.png';
 
-
 function App() {
   return (
     <Router>
       <header className="navbar">
+        <Menu className="collapse">
+          <h2>Menú</h2>
+          <a className="menu-item" href="/">
+          Sobre Nosotros
+          </a>
+          <a className="menu-item" href="/">
+          Servicios
+          </a>
+          <a className="menu-item" href="/">
+          Advisors
+          </a>
+          <a className="menu-item" href="/">
+          PM Academy
+          </a> 
+          <a className="menu-item" href="/">
+          Blog
+          </a>
+          <a className="menu-item" href="/">
+          Contáctanos
+          </a>
+          <a className="menu-item" href="/">
+          Mi cuenta
+          </a>
+          <a className="menu-item" href="/">
+          Cerrar Sesión
+          </a>
+        </Menu>
         <NavLink to="/SCL008-ProyectoMoms" exact activeClassName="active"><img src={logo} alt="MomsLogo" /></NavLink>
-        {/* <ul>
-          <li></li>
-          <li><NavLink to="/SCL008-ProyectoMoms/about" exact activeClassName="active">About</NavLink></li>
-        </ul> */}
       </header>
       <main>
         <Switch>
