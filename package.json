@@ -12,6 +12,9 @@
   "author": "Stephanie Mayen, Fabiola Orellana, Laura Ramirez, Macarena Terán",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.0",
     "firebase": "^6.1.0",
