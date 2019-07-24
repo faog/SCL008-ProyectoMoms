@@ -1,18 +1,18 @@
 
 /*Apply to all document*/
-body{
-    
-    background-image: url("../../img/alexander-solodukhin-ggJRxqOEaFY-unsplash.jpg");
+#root{    
+    background-image: url("../../img/fondo-1.jpg");
+    background-color: rgba(53, 94, 126, 0.7); 
     background-size: 200%;
     background-repeat: no-repeat;
     background-position-x: 39%, 50%;
     background-position-y: 20%, 50%;
     color:rgba(245, 245, 245, 0.89);
+    height: 100%;
 }
+/*
 body:after {
     content : "";
-    display: block;
-    position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(53, 94, 126, 0.7); 
@@ -22,6 +22,7 @@ body:after {
     opacity : 0.9;
     z-index: -1;
 }
+*/
 
 .happyTalk {
     text-align: center;
@@ -35,7 +36,8 @@ body:after {
     letter-spacing: -0.02em;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 40%;
+    padding-top: 30%;
+    margin-top:0px;
 }
 
 .happyTalk h1{
@@ -45,13 +47,14 @@ body:after {
     letter-spacing: -0.02em;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 33px;
 }
 
 .join{
     width: 70%;
     height: 45px;
     left: 12.5%;
-    margin: 0% 15%;
+    margin: 5% 15%;
     background: #F1717F;
     border-radius: 5px;
     color: #FFFFFF;
@@ -60,11 +63,10 @@ body:after {
 }
 
 .enter{
-    position: absolute;
-    width: 75%;
+    width: 70%;
     height: 45px;
     left: 12.5%;
-    top: 140%;
+    margin: 5% 15%;
     border: white solid 0.5px;
     border-radius: 5px;
     color: #FFFFFF;
@@ -72,33 +74,25 @@ body:after {
     font-size: 18px;
 }
 
-.call2Action span{
-    position: absolute;
+.call2Action{
     text-align: center;
-    left: 38%;
-    top: 180%;
     color:white;
     font-size: 18px;
 }
 
+.call2Action h4{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
 .arrowDown{
-    position: absolute;
     color: #F1717F;
     font-size: 40px;
     left: 47%;
-    top: 190%;
+    top:200%;
+    margin-bottom: 10%;
 }
-
-@media screen and(min-width: 320px){
-
-    
-        /* 
-         */
-
-}
-
-
-
- @media screen and(min-width: 480px){}
- @media screen and(min-width: 768px){}
- @media screen and(min-width: 1024px){}
