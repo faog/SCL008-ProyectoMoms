@@ -15,6 +15,7 @@ import logo from './img/1111.png';
 
 function App() {
   return (
+    /*
     <Router>
       <header className="navbar">
         <Menu className="collapse">
@@ -58,6 +59,23 @@ function App() {
         </Switch>
       </main>
     </Router>
+    */
+   <Router>
+   <header>
+     <ul>
+       <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
+       <li><NavLink to="/SCL008-ProyectoMoms/about" exact activeClassName="active"></NavLink></li>
+     </ul>
+   </header>
+ </div>
+   <main>
+     <Switch>
+       <Route path="/" exact component={templateHome} />
+       <Route path="/SCL008-ProyectoMoms/about" component={templateAbout} />
+       <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
+     </Switch>
+   </main>
+ </Router>
   );
 }
 
