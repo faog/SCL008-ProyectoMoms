@@ -40,16 +40,14 @@ function App() {
           Contáctanos
           </a>
           <a className="menu-item" href="https://faog.github.io/SCL008-ProyectoMoms/profile">
-            <NavLink to="/SCL008-ProyectoMoms/profile" exact activeClassName="active">
             Mi Cuenta
-            </NavLink>
           </a>
           <a className="menu-item" href="/">
           Cerrar Sesión
           </a>
         </Menu>
         <NavLink to="/SCL008-ProyectoMoms" exact activeClassName="active"><img src={logo} alt="MomsLogo" /></NavLink>
-
+        <NavLink to="/SCL008-ProyectoMoms/profile" exact activeClassName="active" />
       </header>
       <main>
         <Switch>
