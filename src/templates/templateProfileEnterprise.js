@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import ComponentVisualButton from '../components/componentVisualButton';
 import ComponentVisualOffers from '../components/componentVisualOffers';
+import logoBci from '../img/bci-logo.png';
 import './css/templateProfileEnterprise.css';
 
 
@@ -8,14 +10,24 @@ class templateProfileEnterprise extends Component {
     render() {
     return (
     <section className="templateProfile">
-      <div className="profile">
-         <h3>Mi perfil</h3>
-         <h5><u>Volver</u></h5>
-      </div>
-      <div className="sesiondates">
-        <h5><u>Configuración</u></h5>
-      </div>
+      <Container className="profile">
+      <Row>
+          <Col xs="4" className="colProfile">
+            <h3>Mi perfil</h3> 
+            <img src={logoBci} className="logo-bci" alt="logo" />
+          </Col>
+          <Col xs="8">
+            <h5><u>Volver</u></h5>
+            <br></br>
+            <p>Banco BCI</p>
+            <p>Alejandra López</p>
+            <p>alendralopez@bci.com</p>
+            <h5><u>Configuración</u></h5>
+          </Col>
+        </Row>      
+      </Container>
       <div className="offers">
+        <br></br>
         <h3>Últimas ofertas realizadas</h3>
         <ComponentVisualOffers></ComponentVisualOffers>
       </div>
@@ -23,14 +35,13 @@ class templateProfileEnterprise extends Component {
       <h5><u>Ver todas las ofertas realizadas</u></h5>
         <ComponentVisualButton
        type="submit"
-       name="Crear una nueva oferta laboral"
+       name="Crear nueva oferta laboral"
        className="btn_login"
         buttonOnClick={(evt) => {
           this.sendToDataBase(evt);
         }}
         />
       </div>
-     
         </section>
     );
   }

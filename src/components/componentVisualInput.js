@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
@@ -11,7 +12,7 @@ class ComponentVisualInput extends Component {
           <Form.Label className={this.props.className}>{this.props.message}</Form.Label>
         </Col>
         <Col>
-          <Form.Control className={this.props.className} value={this.props.text} />
+          <Form.Control className={this.props.className} placeholder={this.props.placeholder} value={this.props.text} name={this.props.name ? this.props.name : ''} />
         </Col>
       </Form.Group>
     );
