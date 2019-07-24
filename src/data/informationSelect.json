@@ -1,9 +1,10 @@
 {
-	"flexibilidad": ["Horarios diferidos","Horarios libres","Teletrabajo"],
-	"carrera": ["Analista Programador", "Diseño", "Ingeniería Civil Industrial"],
-	"idioma":["Inglés", "Español"],
-	"nivel" : ["Nativo", "Avanzado", "Medio", "Básico"],	
-	"nivelEstudios": ["Técnico", "Universitario", "Magister", "Doctorado"],
-	"experiencia": ["Sin experiencia", "2 - 3 años", "3 - 5 años", "+ 8 años", "+ 10 años", "+ 15 años"],	
-	"rangoSueldo": ["$500.000 - $700.000", "$700.000 - $900.000"]	
+	"flexibilidad": ["Trabajo full time con flexibilidad","Part time","Freelance", "Horario libre","Trabajo por proyecto", "Otro"],
+	"carrera": ["Analista Programador", "Diseñadora", "Ingeniera Civil Industrial","Ingeniera Civil (Otras especialidades)","Ingeniera Comercial","Contadora y Auditor","Ingeniera Informática/Sistemas","Psicóloga","Publicista","Administradora de Empresas de Servicios","Otro"],
+	"idioma":["Inglés", "Español","Portugués"],
+	"nivel" : ["Básico","Medio", "Avanzado","Nativo" ],	
+	"nivelEstudios": ["Técnico profesional", "Universitario","Universitario (Diplomado)", "Magister - Maestria", "Doctorado"],
+	"añosExperiencia": ["Sin experiencia","1 - 2 años", "2 - 3 años", "3 - 5 años", "+ 8 años", "+ 10 años"],
+	"areaExperiencia":["No es relevante","Administración General","Compras y Logística","Consultoría","Data Science","Diseño","Finanzas","Gestión de Producto","Gestión de Proyectos","Marketing","Medios y Comunicaciones","Operaciones","Recursos Humanos","Otro"],
+	"rangoSueldo": ["$500.000 - $700.000", "$700.000 - $900.000", "$900.000 - $1.200.000","$1.200.000 - $1.500.000","Más de $1.500.000","Más de $2.000.000"]
 }
