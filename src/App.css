@@ -8,6 +8,8 @@ body{
 
 header{
   position:fixed;
+  width: 100%;
+
 }
 
 header:after {
@@ -16,9 +18,6 @@ header:after {
   clear:both;
 }
 
-.menu-item{
-  color:red;
-}
 
 header ul {
   list-style:none;

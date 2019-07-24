@@ -25,7 +25,7 @@ class templateForm extends Component {
   render() {
     return (
       <FirebaseContext.Consumer>
-        {firebase => (
+        {firebase => (   
           <section className="templateform">
             <div className="firstText">
               <h3>Nueva oferta Laboral</h3>
@@ -36,17 +36,17 @@ class templateForm extends Component {
               <ComponentVisualTextArea message="Breve descripción del cargo" placeholder="Selecciona..." className="jobdescription col-xs-12" />
               <ComponentVisualTextArea message="Tareas claves" placeholder="Selecciona..." className="col-xs-12" />
               <ComponentVisualSelect message="Nivel de estudios" className="col-xs-12" options={selectFile.nivelEstudios} />
-              <ComponentVisualSelect message="Carrera" className="col-xs-6" options={selectFile.carrera} />
+              <ComponentVisualSelect message="Carrera" className="col-xs-12" options={selectFile.carrera} />
               <ComponentVisualSelect message="Área de experiencia" className="col-xs-12" options={selectFile.areaExperiencia} />
               <ComponentVisualSelect message="Años de experiencia" className="col-xs-12" options={selectFile.añosExperiencia} />
-              <ComponentVisualSelect message="Idioma" className="col-xs-12" options={selectFile.idioma} />
+              <ComponentVisualSelect message="Idioma" className="col-xs-6" options={selectFile.idioma} />
               <ComponentVisualSelect message="Nivel" className="col-xs-6" options={selectFile.nivel} />
               <ComponentVisualSelect message="Flexibilidad otorgada" className="col-xs-12" options={selectFile.flexibilidad} />
               <ComponentVisualSelect message="Rango de sueldo estimado" className="col-xs-12" options={selectFile.rangoSueldo} />
               <ComponentVisualTextArea message="Requerimientos especiales" placeholder="Selecciona..." className="col-xs-12" />
               <ComponentVisualButton
                 type="submit"
-                name="Crear postulación"
+                name="Crear nueva oferta laboral"
                 className="btn_appealcreate"
                 buttonOnClick={(evt) => {
                   this.sendToDataBase(evt);
