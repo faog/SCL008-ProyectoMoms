@@ -19,7 +19,7 @@ function App() {
       <header className="navbar">
         <Menu className="collapse">
           <h2>Menú</h2>
-          <a className="menu-item" href="/SCL008-ProyectoMoms/about">
+          <a className="menu-item" href="https://faog.github.io/SCL008-ProyectoMoms/">
           Sobre Nosotros
           </a>
           <a className="menu-item" href="/">
