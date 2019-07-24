@@ -22,7 +22,6 @@ function App() {
           <NavLink className="menu-item" to="/SCL008-ProyectoMoms/about" exact activeClassName="active">
             Sobre Nosotros
           </NavLink>
-
           <a className="menu-item" href="/">
           Servicios
           </a>
@@ -41,7 +40,6 @@ function App() {
           <NavLink className="menu-item" to="/SCL008-ProyectoMoms/profile" exact activeClassName="active">
             Mi Cuenta
           </NavLink>
-
           <a className="menu-item" href="/">
           Cerrar Sesión
           </a>
