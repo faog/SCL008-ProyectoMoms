@@ -54,7 +54,7 @@ function App() {
           <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
           <Route path="/SCL008-ProyectoMoms/auth" component={templateAuth} />
           <Route path="/SCL008-ProyectoMoms/profile" component={templateProfileEnterprise} />
-          <Route path="/SCL008-ProyectoMoms/roles" component={templateRoles} />
+          <Route path="/SCL008-ProyectoMoms/roles" exact component={templateRoles} />
         </Switch>
       </main>
     </Router>
