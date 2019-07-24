@@ -13,50 +13,65 @@ import './css/templateForm.css';
 const selectFile = require('../data/informationSelect');
 
 class templateForm extends Component {
+  firebase = {};
   constructor(props) {
     super(props);
     this.sendToDataBase = this.sendToDataBase.bind(this);
   }
 
-  sendToDataBase() {
-    this.props.sendToDataBase();
+  setupFirebase(firebase) {
+    this.firebase = firebase;
+  }
+
+  sendToDataBase(event) {
+    let formData = new FormData(event.currentTarget);
+    let companyApplication = {};
+    formData.forEach((value, key) => {companyApplication[key] = value});
+    console.log(companyApplication);
+    this.firebase.saveCompanyApplication(companyApplication);
+    event.preventDefault();
+    // Modal
+  }
+
+  validate(event){
+    // Nada por ahora
   }
 
   render() {
     return (
-      <FirebaseContext.Consumer>
-        {firebase => (   
-          <section className="templateform">
-            <div className="firstText">
-              <h3>Nueva oferta Laboral</h3>
-              <h5><u>Volver</u></h5>
-            </div>
-            <Form>
-              <ComponentVisualInput message="Nombre del cargo" placeholder="Administradora" className="jobposition col-xs-12" validate={this.validateName} />
-              <ComponentVisualTextArea message="Breve descripción del cargo" placeholder="Selecciona..." className="jobdescription col-xs-12" />
-              <ComponentVisualTextArea message="Tareas claves" placeholder="Selecciona..." className="col-xs-12" />
-              <ComponentVisualSelect message="Nivel de estudios" className="col-xs-12" options={selectFile.nivelEstudios} />
-              <ComponentVisualSelect message="Carrera" className="col-xs-12" options={selectFile.carrera} />
-              <ComponentVisualSelect message="Área de experiencia" className="col-xs-12" options={selectFile.areaExperiencia} />
-              <ComponentVisualSelect message="Años de experiencia" className="col-xs-12" options={selectFile.añosExperiencia} />
-              <ComponentVisualSelect message="Idioma" className="col-xs-6" options={selectFile.idioma} />
-              <ComponentVisualSelect message="Nivel" className="col-xs-6" options={selectFile.nivel} />
-              <ComponentVisualSelect message="Flexibilidad otorgada" className="col-xs-12" options={selectFile.flexibilidad} />
-              <ComponentVisualSelect message="Rango de sueldo estimado" className="col-xs-12" options={selectFile.rangoSueldo} />
-              <ComponentVisualTextArea message="Requerimientos especiales" placeholder="Selecciona..." className="col-xs-12" />
-              <ComponentVisualButton
-                type="submit"
-                name="Crear nueva oferta laboral"
-                className="btn_appealcreate"
-                buttonOnClick={(evt) => {
-                  this.sendToDataBase(evt);
-                }}
-              />
-            </Form>
-          </section>
-        )}
-
-      </FirebaseContext.Consumer>
+      <React.Fragment>
+        <FirebaseContext.Consumer>
+          {firebase=> this.setupFirebase(firebase)}
+        </FirebaseContext.Consumer>
+        <section className="templateform">
+          <div className="firstText">
+            <h3>Nueva oferta Laboral</h3>
+            <h5><u>Volver</u></h5>
+          </div>
+          <Form onSubmit={(event)=> {this.sendToDataBase(event)}}>
+            <ComponentVisualInput message="Nombre del cargo" placeholder="Administradora" className="jobposition col-xs-12" validate={this.validateName} name="nombreCargo"/>
+            <ComponentVisualTextArea message="Breve descripción del cargo" placeholder="Selecciona..." className="jobdescription col-xs-12" name="descripcionCargo"/>
+            <ComponentVisualTextArea message="Tareas claves" placeholder="Selecciona..." className="col-xs-12" name="tareasClaves"/>
+            <ComponentVisualSelect message="Nivel de estudios" className="col-xs-12" options={selectFile.nivelEstudios} name="nivelEstudios"/>
+            <ComponentVisualSelect message="Carrera" className="col-xs-12" options={selectFile.carrera} name="carrera"/>
+            <ComponentVisualSelect message="Área de experiencia" className="col-xs-12" options={selectFile.areaExperiencia} name="areaExperiencia"/>
+            <ComponentVisualSelect message="Años de experiencia" className="col-xs-12" options={selectFile.añosExperiencia} name="añosExperiencia"/>
+            <ComponentVisualSelect message="Idioma" className="col-xs-6" options={selectFile.idioma} name="idioma"/>
+            <ComponentVisualSelect message="Nivel" className="col-xs-6" options={selectFile.nivel} name="nivelIdioma"/>
+            <ComponentVisualSelect message="Flexibilidad otorgada" className="col-xs-12" options={selectFile.flexibilidad} name="flexibilidad"/>
+            <ComponentVisualSelect message="Rango de sueldo estimado" className="col-xs-12" options={selectFile.rangoSueldo} name="rangoSueldo"/>
+            <ComponentVisualTextArea message="Requerimientos especiales" placeholder="Selecciona..." className="col-xs-12" name="requerimientosAdicionales"/>
+            <ComponentVisualButton
+              type="submit"
+              name="Crear nueva oferta laboral"
+              className="btn_appealcreate"
+              buttonOnClick={(evt) => {
+                this.validate(evt);
+              }}
+            />
+          </Form>
+        </section>
+      </React.Fragment>      
     );
   }
 }

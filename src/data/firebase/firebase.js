@@ -19,6 +19,11 @@ class Firebase {
     app.initializeApp(config);
     this.db = app.firestore();
   }
+
+  saveCompanyApplication = (companyApplication) => {
+    companyApplication.timeApplied = new Date(Date.now());
+    return this.db.collection('companyApplication').add(companyApplication);
+  }
 }
 
 export default Firebase;
