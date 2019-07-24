@@ -45,7 +45,7 @@ function App() {
           </a>
         </Menu>
         <NavLink to="/SCL008-ProyectoMoms" exact activeClassName="active"><img src={logo} alt="MomsLogo" /></NavLink>
-        <NavLink to="/SCL008-ProyectoMoms/formulario" activeClassName="active" />
+        <NavLink to="/SCL008-ProyectoMoms/formulario" exact activeClassName="active" />
       </header>
       <main>
         <Switch>
