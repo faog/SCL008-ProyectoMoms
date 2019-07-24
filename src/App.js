@@ -20,7 +20,9 @@ function App() {
         <Menu className="collapse">
           <h2>Menú</h2>
           <a className="menu-item" href="https://faog.github.io/SCL008-ProyectoMoms/about">
-          Sobre Nosotros
+            <NavLink to="/SCL008-ProyectoMoms/about" exact activeClassName="active">
+                    Sobre Nosotros
+            </NavLink>
           </a>
           <a className="menu-item" href="/">
           Servicios
@@ -45,7 +47,7 @@ function App() {
           </a>
         </Menu>
         <NavLink to="/SCL008-ProyectoMoms" exact activeClassName="active"><img src={logo} alt="MomsLogo" /></NavLink>
-        <NavLink to="/SCL008-ProyectoMoms/roles" exact activeClassName="active" />
+
       </header>
       <main>
         <Switch>
@@ -54,7 +56,7 @@ function App() {
           <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
           <Route path="/SCL008-ProyectoMoms/auth" component={templateAuth} />
           <Route path="/SCL008-ProyectoMoms/profile" component={templateProfileEnterprise} />
-          <Route path="/SCL008-ProyectoMoms/roles" exact component={templateRoles} />
+          <Route path="/SCL008-ProyectoMoms/roles" exactcomponent={templateRoles} />
         </Switch>
       </main>
     </Router>
