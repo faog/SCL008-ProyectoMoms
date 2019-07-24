@@ -3,10 +3,9 @@ import {
   BrowserRouter as Router, Route, Switch, NavLink,
 } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
-import templateForm from './templates/templateForm';
 import templateHome from './templates/templateHome';
-import templateAbout from './templates/templateAbout';
 import templateAuth from './templates/templateAuth';
+import templateForm from './templates/templateForm';
 import templateProfileEnterprise from './templates/templateProfileEnterprise';
 import templateRoles from './templates/templateRoles';
 
@@ -19,7 +18,7 @@ function App() {
       <header className="navbar">
         <Menu className="collapse">
           <h2>Menú</h2>
-          <NavLink className="menu-item" to="/about" exact activeClassName="active">
+          <NavLink className="menu-item" to="/" exact activeClassName="active">
             Sobre Nosotros
           </NavLink>
           <a className="menu-item" href="/">
@@ -49,7 +48,6 @@ function App() {
       <main>
         <Switch>
           <Route path="/" exact component={templateHome} />
-          <Route path="/about" component={templateAbout} />
           <Route path="/formulario" component={templateForm} />
           <Route path="/auth" component={templateAuth} />
           <Route path="/profile" exact component={templateProfileEnterprise} />

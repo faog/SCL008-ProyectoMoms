@@ -15,7 +15,7 @@ class templateHome extends Component {
             <h1>Conectamos talento femenino con las mejores compañías que tienen ofertas flexibles para ellas</h1>
           </div>
           <div className="call2Action">
-            <ComponentVisualButton name="Unete" className="enter" />
+            <ComponentVisualButton name="Unete" className="join" />
             <ComponentVisualButton name="Ingresa" className="enter" />
             <h4>Conoce más</h4>
             <FontAwesomeIcon className="arrowDown" icon={faArrowAltCircleDown} />
