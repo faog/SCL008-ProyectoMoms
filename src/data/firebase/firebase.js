@@ -8,7 +8,7 @@ const config = {
   authDomain: 'proyecto-moms.firebaseapp.com',
   databaseURL: 'https://proyecto-moms.firebaseio.com',
   projectId: 'proyecto-moms',
-  storageBucket: '',
+  storageBucket: 'proyecto-moms.appspot.com',
   messagingSenderId: '1052432304334',
   appId: '1:1052432304334:web:b1be1179280dc3ad',
 };

@@ -51,6 +51,11 @@ Form{
 	color: #355E7E;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #C4C4C4;;
+	opacity: 1; /* Firefox */
+}
+
 .form-control{
 	width: 100%;
 	height: 35px;
@@ -67,7 +72,7 @@ Form{
 	display: flex;
 	align-items: center;
 	letter-spacing: -0.02em;
-	color: #C4C4C4;
+	color:  #254863;
 }
 
 textarea {
