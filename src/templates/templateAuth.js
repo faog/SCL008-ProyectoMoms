@@ -2,13 +2,25 @@ import React, { Component } from 'react';
 import { Form } from 'react-bootstrap';
 import ComponentVisualInput from '../components/componentVisualInput';
 import ComponentVisualButton from '../components/componentVisualButton';
+import ComponentVisualModal from '../components/componentVisualModal';
 import { FirebaseContext } from '../data/firebase';
 import './css/templateAuth.css';
 
 class templateAuth extends Component {
   constructor(props) {
     super(props);
-    this.sendToDataBase = this.sendToDataBase.bind(this);
+    this.state = {
+      onOpen: false,
+   }
+    this.sendToDataBase = this.sendToDataBase.bind(this);  
+  }
+
+   handleOpenModal= () =>{
+     this.setState({onOpen:true}) 
+   }
+  
+  handleCloseModal= e =>{
+    this.setState({onOpen:false})
   }
 
   sendToDataBase() {
@@ -38,9 +50,17 @@ class templateAuth extends Component {
                 className="btn_login"
                 buttonOnClick={(evt) => {
                   this.sendToDataBase(evt);
+                  this.handleOpenModal();
                 }}
               />
             </Form>
+            <ComponentVisualModal 
+            confirmation="Se ha creado tu cuenta"
+            message="¡Felicitaciones!"
+            text="te hemos enviado un correo de verificación"
+            onClose={this.handleCloseModal}
+            onOpen={this.state.onOpen}
+            />
           </section>
         )}
 
