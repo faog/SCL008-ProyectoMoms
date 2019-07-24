@@ -22,12 +22,12 @@ class templateProfileEnterprise extends Component {
             <p>Banco BCI</p>
             <p>Alejandra López</p>
             <p>alendralopez@bci.com</p>
-            <br></br>
             <h5><u>Configuración</u></h5>
           </Col>
         </Row>      
       </Container>
       <div className="offers">
+        <br></br>
         <h3>Últimas ofertas realizadas</h3>
         <ComponentVisualOffers></ComponentVisualOffers>
       </div>
