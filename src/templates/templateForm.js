@@ -29,7 +29,7 @@ class templateForm extends Component {
           <section className="templateform">
             <div className="firstText">
             <h3>Nueva oferta Laboral</h3>
-            <h5><u>Volver</u></h5>
+            <h5>Volver</h5>
             </div>
             <Form>
               <ComponentVisualInput message="Nombre del cargo " className="jobposition col-xs-12" validate={this.validateName} />

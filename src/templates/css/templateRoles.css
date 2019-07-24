@@ -1,0 +1,84 @@
+  
+.rolesPage {
+    padding: 5%; 
+    background-image: url("../../img/fondo-2.jpg");
+    background-color: rgba(53, 94, 126, 0.7); 
+    background-size: 145%;
+    background-repeat: no-repeat;
+    background-position-x: 40%, 50%;
+    background-position-y: 20%, 50%;
+    color:rgba(245, 245, 245, 0.89);
+    height: 100%;
+}
+.rolesPage h5 {
+    padding-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
+}
+
+.rolesPage h3 {
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;   
+}
+
+.rolesPage h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    margin: 5% 15%;
+    
+}
+
+.profesionist{
+    width: 70%;
+    height: 150px;
+    left: 12.5%;
+    margin: 5% 15%;
+    background: #F1717F;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+.enterprise{
+    width: 70%;
+    height: 150px;
+    left: 12.5%;
+    margin: 10% 15%;
+    border: white solid 0.5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; 
+}
+
+.rolesPage span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: left;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
+
+}
