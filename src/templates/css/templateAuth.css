@@ -3,19 +3,7 @@
 	padding: 5%;	
 }
 
-.templateAuth h3 {
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	display: flex;
-	align-items: center;
-	letter-spacing: -0.02em;
-	color: #F1717F;
-}
-
-.templateAuth h5{
+.templateAuth h3, h5 {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
@@ -28,47 +16,20 @@
 }
 
 .firstText{
-	margin-top: 11%;
+	margin-top: 12%;
 	display: flex;
 	justify-content: space-between;
 }
 
-
 .form-label {
-	padding-top:10px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	line-height: 18px;
-	display: flex;
-	align-items: center;
-	letter-spacing: -0.02em;
-	color: #355E7E;
+	padding-top:11px;
+	
 }
 
 .form-control{
 	width: 100%;
 	height: 35px;
 	margin-top: 10px;	
-	background: #FFFFFF;
-	border: 0.5px solid #355E7E;
-	box-sizing: border-box;
-	border-radius: 5px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	line-height: 18px;
-	display: flex;
-	align-items: center;
-	letter-spacing: -0.02em;
-	color: #C4C4C4;
-}
-
-textarea {
-	height: 80px!important;
-
 }
 
 .btn_login{

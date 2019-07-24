@@ -7,6 +7,7 @@ import templateHome from './templates/templateHome';
 import templateAbout from './templates/templateAbout';
 import templateForm from './templates/templateForm';
 import templateAuth from './templates/templateAuth';
+import templateProfileEnterprise from './templates/templateProfileEnterprise';
 import './App.css';
 import logo from './img/1111.png';
 
@@ -48,7 +49,8 @@ function App() {
           <Route path="/SCL008-ProyectoMoms" exact component={templateHome} />
           <Route path="/SCL008-ProyectoMoms/about" component={templateAbout} />
           <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
-          <Route path="/SCL008-ProyectoMoms/Auth" component={templateAuth} />
+          <Route path="/SCL008-ProyectoMoms/auth" component={templateAuth} />
+          <Route path="/SCL008-ProyectoMoms/profile" component={templateProfileEnterprise} />
         </Switch>
       </main>
     </Router>
