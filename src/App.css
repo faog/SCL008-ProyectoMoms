@@ -8,7 +8,9 @@ body{
 
 header{
   position:fixed;
-}
+  border-bottom: solid 1px;
+  width: 100%;
+} 
 
 header:after {
   content:" ";

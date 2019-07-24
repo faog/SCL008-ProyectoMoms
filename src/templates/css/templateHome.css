@@ -1,6 +1,6 @@
 
 /*Apply to all document*/
-#root{    
+ #root{    
     background-image: url("../../img/fondo-1.jpg");
     background-color: rgba(53, 94, 126, 0.7); 
     background-size: 200%;
@@ -9,7 +9,7 @@
     background-position-y: 20%, 50%;
     color:rgba(245, 245, 245, 0.89);
     height: 100%;
-}
+} 
 /*
 body:after {
     content : "";
@@ -71,7 +71,7 @@ body:after {
     border-radius: 5px;
     color: #FFFFFF;
     background: transparent;
-    font-size: 18px;
+    font-size: 18px; 
 }
 
 .call2Action{
