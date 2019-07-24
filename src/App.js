@@ -26,7 +26,7 @@ function App() {
           </a>
           <a className="menu-item" href="/">
           PM Academy
-          </a> 
+          </a>
           <a className="menu-item" href="/">
           Blog
           </a>

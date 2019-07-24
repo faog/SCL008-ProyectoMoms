@@ -16,18 +16,32 @@ header:after {
   clear:both;
 }
 
+.menu-item{
+  color:red;
+}
+
 header ul {
   list-style:none;
 }
 
 .navbar img {
-  width:30%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0px 120px;
+  width: 30%;
+  padding-top: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin: 0% 35%;
+}
+
+.bm-item{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 37px;
+  color: #FFFFFF;
 }
 /* Individual item */
-.bm-item {
+.menu-item{
   display: inline-block;
   /* Our sidebar item styling */
   text-decoration: none;
@@ -36,7 +50,10 @@ header ul {
   padding-bottom: 10%;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  transition: color 0.2s;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 /* Change color on hover */
