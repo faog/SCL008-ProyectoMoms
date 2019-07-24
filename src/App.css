@@ -12,15 +12,13 @@ header{
   width: 100%;
 } 
 
+
 header:after {
   content:" ";
   display:table;
   clear:both;
 }
 
-.menu-item{
-  color:red;
-}
 
 header ul {
   list-style:none;

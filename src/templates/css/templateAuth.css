@@ -16,9 +16,10 @@
 }
 
 .firstText{
-	margin-top: 12%;
 	display: flex;
 	justify-content: space-between;
+	padding-top:25%;
+
 }
 
 .form-label {

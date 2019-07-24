@@ -3,13 +3,14 @@
  #root{    
     background-image: url("../../img/fondo-1.jpg");
     background-color: rgba(53, 94, 126, 0.7); 
-    background-size: 200%;
+    background-size: 250%;
     background-repeat: no-repeat;
     background-position-x: 39%, 50%;
     background-position-y: 20%, 50%;
     color:rgba(245, 245, 245, 0.89);
     height: 100%;
 } 
+
 /*
 body:after {
     content : "";
@@ -38,6 +39,9 @@ body:after {
     padding-right: 20%;
     padding-top: 30%;
     margin-top:0px;
+}
+.firstPage{
+    height: 100%;
 }
 
 .happyTalk h1{
