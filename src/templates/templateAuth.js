@@ -25,14 +25,13 @@ class templateAuth extends Component {
             <h5><u>Volver</u></h5>
             </div>
             <Form>
-              <ComponentVisualInput message="Nombre y apellido" className="enterprise col-xs-8" validate={this.validateName} />
-              <ComponentVisualInput message="Nombre y apellido" className="enterprise col-xs-12" validate={this.validateName} />
-              <ComponentVisualInput message="Empresa a la que representas" className="enterprise col-xs-12" validate={this.validateName} />
-              <ComponentVisualInput message="Rut de la empresa" className="enterprise col-xs-12" validate={this.validateName} />
-              <ComponentVisualInput message="Correo electrónico" className="enterprise col-xs-12" validate={this.validateName} />
-              <ComponentVisualInput message="Teléfono de contacto" className="enterprise col-xs-12" validate={this.validateName} />
-              <ComponentVisualInput message="Contraseña" className="enterprise col-xs-12" validate={this.validateName} />
-              <ComponentVisualInput message="Confirmar contraseña" className="enterprise col-xs-12" validate={this.validateName} />
+              <ComponentVisualInput message="Nombre y apellido" className="datesenterprise col-xs-12" validate={this.validateName} />
+              <ComponentVisualInput message="Empresa a la que representas" className="datesenterprise col-xs-12" validate={this.validateName} />
+              <ComponentVisualInput message="Rut de la empresa" className="datesenterprise col-xs-12" validate={this.validateName} />
+              <ComponentVisualInput message="Correo electrónico" className="datesenterprise col-xs-12" validate={this.validateName} />
+              <ComponentVisualInput message="Teléfono de contacto" className="datesenterprise col-xs-12" validate={this.validateName} />
+              <ComponentVisualInput message="Contraseña" className="datesenterprise col-xs-12" validate={this.validateName} />
+              <ComponentVisualInput message="Confirmar contraseña" className="datesenterprise col-xs-12" validate={this.validateName} />
               <ComponentVisualButton
                 type="submit"
                 name="Crear perfil"

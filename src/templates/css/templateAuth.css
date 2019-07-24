@@ -1,10 +1,13 @@
 .templateAuth{
-	background: #EEEEEE;
-	padding: 5%;	
+	background: #EEEEEE;			
 }
 
-.templateAuth h3, h5 {
-	font-family: Montserrat;
+header{
+	background-color: rgba(53, 94, 126); 
+}
+
+.templateAuth h3{
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -15,22 +18,71 @@
 	color: #F1717F;
 }
 
+.templateform h5{	
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #F1717F;
+	text-decoration-line: underline;
+}
+
 .firstText{
 	display: flex;
 	justify-content: space-between;
 	padding-top:25%;
-
+	margin: 0px 30px;
 }
 
+Form{
+	margin: 0px 40px;
+}
+.form{
+	height: 100%;
+}
 .form-label {
-	padding-top:11px;
-	
+	padding-top:20px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #355E7E;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #C4C4C4;;
+	opacity: 1; /* Firefox */
 }
 
 .form-control{
 	width: 100%;
 	height: 35px;
-	margin-top: 10px;	
+	margin-top: 5px;	
+	background: #FFFFFF;
+	border: 0.5px solid #355E7E;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color:  #254863;
+}
+
+textarea {
+	height: 80px!important;
 }
 
 .btn_login{
