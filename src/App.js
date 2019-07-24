@@ -19,11 +19,10 @@ function App() {
       <header className="navbar">
         <Menu className="collapse">
           <h2>Menú</h2>
-          <a className="menu-item" href="https://faog.github.io/SCL008-ProyectoMoms/about">
-            <NavLink to="/SCL008-ProyectoMoms/about" exact activeClassName="active">
-                    Sobre Nosotros
-            </NavLink>
-          </a>
+          <NavLink className="menu-item" to="/SCL008-ProyectoMoms/about" exact activeClassName="active">
+            Sobre Nosotros
+          </NavLink>
+
           <a className="menu-item" href="/">
           Servicios
           </a>
@@ -39,15 +38,15 @@ function App() {
           <a className="menu-item" href="/">
           Contáctanos
           </a>
-          <a className="menu-item" href="https://faog.github.io/SCL008-ProyectoMoms/profile">
+          <NavLink className="menu-item" to="/SCL008-ProyectoMoms/profile" exact activeClassName="active">
             Mi Cuenta
-          </a>
+          </NavLink>
+
           <a className="menu-item" href="/">
           Cerrar Sesión
           </a>
         </Menu>
         <NavLink to="/SCL008-ProyectoMoms" exact activeClassName="active"><img src={logo} alt="MomsLogo" /></NavLink>
-        <NavLink to="/SCL008-ProyectoMoms/profile" exact activeClassName="active" />
       </header>
       <main>
         <Switch>
