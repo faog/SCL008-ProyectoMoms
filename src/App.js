@@ -6,6 +6,7 @@ import { slide as Menu } from 'react-burger-menu';
 import templateHome from './templates/templateHome';
 import templateAbout from './templates/templateAbout';
 import templateForm from './templates/templateForm';
+import templateAuth from './templates/templateAuth';
 import './App.css';
 import logo from './img/1111.png';
 
@@ -47,6 +48,7 @@ function App() {
           <Route path="/SCL008-ProyectoMoms" exact component={templateHome} />
           <Route path="/SCL008-ProyectoMoms/about" component={templateAbout} />
           <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
+          <Route path="/SCL008-ProyectoMoms/Auth" component={templateAuth} />
         </Switch>
       </main>
     </Router>
