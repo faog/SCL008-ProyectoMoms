@@ -3,9 +3,9 @@ import {
   BrowserRouter as Router, Route, Switch, NavLink,
 } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
+import templateForm from './templates/templateForm';
 import templateHome from './templates/templateHome';
 import templateAbout from './templates/templateAbout';
-import templateForm from './templates/templateForm';
 import templateAuth from './templates/templateAuth';
 import templateProfileEnterprise from './templates/templateProfileEnterprise';
 import templateRoles from './templates/templateRoles';
@@ -15,12 +15,11 @@ import logo from './img/1111.png';
 
 function App() {
   return (
-    /*
     <Router>
       <header className="navbar">
         <Menu className="collapse">
           <h2>Menú</h2>
-          <a className="menu-item" href="https://faog.github.io/SCL008-ProyectoMoms/">
+          <a className="menu-item" href="/">
           Sobre Nosotros
           </a>
           <a className="menu-item" href="/">
@@ -46,7 +45,6 @@ function App() {
           </a>
         </Menu>
         <NavLink to="/SCL008-ProyectoMoms" exact activeClassName="active"><img src={logo} alt="MomsLogo" /></NavLink>
-        <NavLink to="/SCL008-ProyectoMoms/formulario" exact activeClassName="active" />
       </header>
       <main>
         <Switch>
@@ -59,22 +57,6 @@ function App() {
         </Switch>
       </main>
     </Router>
-    */
-   <Router>
-   <header>
-     <ul>
-       <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
-       <li><NavLink to="/SCL008-ProyectoMoms/about" exact activeClassName="active"></NavLink></li>
-     </ul>
-   </header>
-   <main>
-     <Switch>
-       <Route path="/" exact component={templateHome} />
-       <Route path="/SCL008-ProyectoMoms/about" component={templateAbout} />
-       <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
-     </Switch>
-   </main>
- </Router>
   );
 }
 
