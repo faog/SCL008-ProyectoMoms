@@ -39,8 +39,10 @@ function App() {
           <a className="menu-item" href="/">
           Contáctanos
           </a>
-          <a className="menu-item" href="/">
-          Mi cuenta
+          <a className="menu-item" href="https://faog.github.io/SCL008-ProyectoMoms/profile">
+            <NavLink to="/SCL008-ProyectoMoms/profile" exact activeClassName="active">
+            Mi Cuenta
+            </NavLink>
           </a>
           <a className="menu-item" href="/">
           Cerrar Sesión
@@ -55,8 +57,8 @@ function App() {
           <Route path="/SCL008-ProyectoMoms/about" component={templateAbout} />
           <Route path="/SCL008-ProyectoMoms/formulario" component={templateForm} />
           <Route path="/SCL008-ProyectoMoms/auth" component={templateAuth} />
-          <Route path="/SCL008-ProyectoMoms/profile" component={templateProfileEnterprise} />
-          <Route path="/SCL008-ProyectoMoms/roles" exactcomponent={templateRoles} />
+          <Route path="/SCL008-ProyectoMoms/profile" exact component={templateProfileEnterprise} />
+          <Route path="/SCL008-ProyectoMoms/roles" exact component={templateRoles} />
         </Switch>
       </main>
     </Router>
