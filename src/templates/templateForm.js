@@ -31,6 +31,7 @@ class templateForm extends Component {
     this.firebase.saveCompanyApplication(companyApplication);
     event.preventDefault();
     // Modal
+    
   }
 
   validate(event){
