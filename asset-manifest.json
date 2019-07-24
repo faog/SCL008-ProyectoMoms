@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/SCL008-ProyectoMoms/static/css/main.a5396ae7.chunk.css",
-    "main.js": "/SCL008-ProyectoMoms/static/js/main.2496c44b.chunk.js",
-    "main.js.map": "/SCL008-ProyectoMoms/static/js/main.2496c44b.chunk.js.map",
+    "main.css": "/SCL008-ProyectoMoms/static/css/main.27257c77.chunk.css",
+    "main.js": "/SCL008-ProyectoMoms/static/js/main.ca5e2251.chunk.js",
+    "main.js.map": "/SCL008-ProyectoMoms/static/js/main.ca5e2251.chunk.js.map",
     "runtime~main.js": "/SCL008-ProyectoMoms/static/js/runtime~main.09163e2e.js",
     "runtime~main.js.map": "/SCL008-ProyectoMoms/static/js/runtime~main.09163e2e.js.map",
-    "static/js/2.6af28a13.chunk.js": "/SCL008-ProyectoMoms/static/js/2.6af28a13.chunk.js",
-    "static/js/2.6af28a13.chunk.js.map": "/SCL008-ProyectoMoms/static/js/2.6af28a13.chunk.js.map",
+    "static/js/2.22f52d07.chunk.js": "/SCL008-ProyectoMoms/static/js/2.22f52d07.chunk.js",
+    "static/js/2.22f52d07.chunk.js.map": "/SCL008-ProyectoMoms/static/js/2.22f52d07.chunk.js.map",
     "index.html": "/SCL008-ProyectoMoms/index.html",
-    "precache-manifest.30a81e3a2714ac282f7428d7221c58d0.js": "/SCL008-ProyectoMoms/precache-manifest.30a81e3a2714ac282f7428d7221c58d0.js",
+    "precache-manifest.72149d07d4dc13e9cc73c90741bf582e.js": "/SCL008-ProyectoMoms/precache-manifest.72149d07d4dc13e9cc73c90741bf582e.js",
     "service-worker.js": "/SCL008-ProyectoMoms/service-worker.js",
-    "static/css/main.a5396ae7.chunk.css.map": "/SCL008-ProyectoMoms/static/css/main.a5396ae7.chunk.css.map",
+    "static/css/main.27257c77.chunk.css.map": "/SCL008-ProyectoMoms/static/css/main.27257c77.chunk.css.map",
     "static/media/1111.png": "/SCL008-ProyectoMoms/static/media/1111.4446993d.png",
-    "static/media/templateHome.css": "/SCL008-ProyectoMoms/static/media/alexander-solodukhin-ggJRxqOEaFY-unsplash.f088e787.jpg"
+    "static/media/templateHome.css": "/SCL008-ProyectoMoms/static/media/fondo-1.12bf3a13.jpg",
+    "static/media/templateRoles.css": "/SCL008-ProyectoMoms/static/media/fondo-2.b94bdffc.jpg"
   }
 }
