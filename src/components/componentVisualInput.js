@@ -12,7 +12,7 @@ class ComponentVisualInput extends Component {
           <Form.Label className={this.props.className}>{this.props.message}</Form.Label>
         </Col>
         <Col>
-          <Form.Control className={this.props.className} placeholder={this.props.placeholder} value={this.props.text} />
+          <Form.Control className={this.props.className} placeholder={this.props.placeholder} value={this.props.text} name={this.props.name ? this.props.name : ''} />
         </Col>
       </Form.Group>
     );

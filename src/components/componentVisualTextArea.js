@@ -11,7 +11,7 @@ class ComponentVisualTextArea extends Component {
           <Form.Label>{this.props.message}</Form.Label>
         </Col>
         <Col>
-          <Form.Control as="textarea" placeholder={this.props.placeholder} rows="3" />
+          <Form.Control as="textarea" placeholder={this.props.placeholder} rows="3" name={this.props.name ? this.props.name : ''} />
         </Col>
       </Form.Group>
     );
