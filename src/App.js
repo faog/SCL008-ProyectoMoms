@@ -67,7 +67,6 @@ function App() {
        <li><NavLink to="/SCL008-ProyectoMoms/about" exact activeClassName="active"></NavLink></li>
      </ul>
    </header>
- </div>
    <main>
      <Switch>
        <Route path="/" exact component={templateHome} />
