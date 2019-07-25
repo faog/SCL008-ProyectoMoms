@@ -5,12 +5,20 @@ import './css/templateProfileEnterprise.css';
 
 
 class templateProfileEnterprise extends Component {
+  constructor(props) {
+    super(props);
+    this.redirect = this.redirect.bind(this);
+  }
+
+  redirect(path) {
+    this.props.history.push(path);
+  }
     render() {
     return (
     <section className="templateProfile">
       <div className="profile">
          <h3>Mi perfil</h3>
-         <h5><u>Volver</u></h5>
+         <h5><a href='/'>Volver</a></h5>
       </div>
       <div className="sesiondates">
         <h5><u>Configuración</u></h5>
@@ -26,8 +34,8 @@ class templateProfileEnterprise extends Component {
        name="Crear una nueva oferta laboral"
        className="btn_login"
         buttonOnClick={(evt) => {
-          this.sendToDataBase(evt);
-        }}
+          this.redirect('/formulario', evt)}
+        }
         />
       </div>
      

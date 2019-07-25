@@ -3,7 +3,7 @@
 	padding: 5%;	
 }
 
-.templateProfile h3, h5{
+.templateProfile h3, h5 a{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
@@ -15,12 +15,24 @@
 	color: #F1717F;
 }
 
-.profile
-{   margin-top: 12%;
+.templateProfile h5 u{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.02em;
+	color: #F1717F;
+}
+
+.profile {   
     width: 80%;
     height: 100%;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 20%;
 }
    
 .btn_login{

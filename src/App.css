@@ -40,6 +40,7 @@ header ul {
   line-height: 37px;
   color: #FFFFFF;
 }
+
 /* Individual item */
 .menu-item{
   display: inline-block;
@@ -78,11 +79,13 @@ header ul {
 
 }
 
+
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
   width: 24px;
 }
+
 
 /* Color/shape of close button cross */
 .bm-cross {
@@ -110,6 +113,10 @@ header ul {
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.a.bm-item.menu-item.active{
+  border-color: pink;
 }
 
 

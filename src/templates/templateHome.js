@@ -27,7 +27,7 @@ class templateHome extends Component {
           </div>
           <div className="call2Action">
             <ComponentVisualButton name="Unete" className="join" buttonOnClick={evt => this.redirect('/roles', evt)} />
-            <ComponentVisualButton name="Ingresa" className="enter" buttonOnClick={evt => this.redirect('/auth', evt)} />
+            <ComponentVisualButton name="Ingresa" className="enter" />
             <h4>Conoce más</h4>
             <FontAwesomeIcon className="arrowDown" icon={faArrowAltCircleDown} />
           </div>
