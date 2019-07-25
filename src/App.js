@@ -11,6 +11,7 @@ import templateForm from './templates/templateForm';
 import templateProfileEnterprise from './templates/templateProfileEnterprise';
 import templateRoles from './templates/templateRoles';
 import templateAdmin from './templates/templateAdmin';
+import templateBuild from './templates/templateBuild';
 
 import './App.css';
 import logo from './img/1111.png';
@@ -56,6 +57,7 @@ function App() {
           <Route path="/perfilEmpresa" component={templateProfileEnterprise} />
           <Route path="/tipoPerfil" component={templateRoles} />
           <Route path="/perfilAdmin" component={templateAdmin} />
+          <Route path="/temporal" component={templateBuild} />
         </Switch>
       </main>
     </Router>
