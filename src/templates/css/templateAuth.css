@@ -18,7 +18,7 @@ header{
 	color: #F1717F;
 }
 
-.templateAuth h5{	
+.templateAuth h5 a{	
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -27,8 +27,11 @@ header{
 	display: flex;
 	align-items: center;
 	letter-spacing: -0.02em;
-	color: #F1717F;
 	text-decoration-line: underline;
+}
+
+.templateAuth h5 a{	
+	color: #F1717F;
 }
 
 .firstText{
