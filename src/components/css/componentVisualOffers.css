@@ -19,6 +19,7 @@
     border: 1px solid #355E7E;
     box-sizing: border-box;
     border-radius: 5px;
+    height: 38px;
 }
 
 .offersInfo h3{
@@ -34,7 +35,7 @@
     margin: 5% 5%;
 }
 
-.containerOffers h1 {
+.title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -43,6 +44,10 @@
     align-items: center;
     letter-spacing: -0.02em;
     color: #355E7E;
+    padding: 0% 10%;
+    padding-top: 3%;
+    margin-top:5%;
+    margin-bottom: 0px;
 }
 
 .containerOffers h6 {
@@ -51,12 +56,14 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
     color: #355E7E;
-
+    padding: 5% 10%;
+    padding-bottom: 0%;
+    margin: 0px;
+    padding: 2% 10%;
 }
 
 .containerOffers h3 {
@@ -69,6 +76,8 @@
     align-items: center;
     letter-spacing: -0.02em;
     color: #355E7E;
+    padding: 2% 10%;
+    margin: 0px;
 }
 
 .containerOffers h5 {
@@ -81,4 +90,5 @@
     letter-spacing: -0.02em;
     text-decoration-line: underline;
     color: #F1717F;
+    margin: 4% 10%;
 }

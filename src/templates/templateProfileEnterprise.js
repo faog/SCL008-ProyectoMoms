@@ -60,6 +60,7 @@ class templateProfileEnterprise extends Component {
         <h3>Últimas ofertas realizadas</h3>
           <ComponentVisualOffers applications={this.state.applications} />
         </article>
+        <h3 className="sale">Ver todas las ofertas realizadas</h3>
         <ComponentVisualButton
             type="submit"
             name="Crear nueva oferta laboral"
@@ -68,7 +69,7 @@ class templateProfileEnterprise extends Component {
               this.redirect('/postulacion', evt);
             }
             }/>
-       
+        
       </section>
 
       </React.Fragment>

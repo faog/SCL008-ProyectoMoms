@@ -12,7 +12,7 @@ class ComponentVisualOffers extends Component {
         {applications.map(application => (
           <div key={application.id}>
             <div className="containerOffers">
-              <h1>{application.carrera}</h1>
+              <h1 className="title" >{application.carrera}</h1>
               <h6>
                 Realizada el
                 {' '}

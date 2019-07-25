@@ -23,7 +23,7 @@
     color: #F1717F;
 }
 
-.firstSectionProfile h5 a	{
+.firstSectionProfile h5 a 	{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -35,6 +35,19 @@
     letter-spacing: -0.02em;
     text-decoration-line: underline;
     color: #F1717F;
+}
+
+.sale{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: -webkit-right;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
+    margin:2% 5%;
 }
 
 .bodyProfile{
@@ -71,5 +84,20 @@
     letter-spacing: -0.02em;
     text-decoration-line: underline;
     color: #F1717F;
+}
+
+.btn_profilenew{
+    width: 80%;
+    height: 43px;
+    background: #F1717F;
+    border-radius: 5px;
+    margin: 5% 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
 }
 
