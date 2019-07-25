@@ -1,5 +1,4 @@
 /* eslint-disable no-param-reassign */
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 import { Form } from 'react-bootstrap';
@@ -10,6 +9,7 @@ import { FirebaseContext } from '../data/firebase';
 import './css/templateAuth.css';
 
 class templateAuth extends Component {
+  firebase = {};
   constructor(props) {
     super(props);
     this.state = {
