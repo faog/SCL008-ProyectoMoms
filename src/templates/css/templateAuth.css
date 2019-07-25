@@ -18,7 +18,7 @@ header{
 	color: #F1717F;
 }
 
-.templateform h5{	
+.templateAuth h5{	
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -70,7 +70,7 @@ Form{
 	border: 0.5px solid #355E7E;
 	box-sizing: border-box;
 	border-radius: 5px;
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
