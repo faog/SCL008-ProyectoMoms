@@ -1,0 +1,94 @@
+header {
+    top:0px;
+}
+.adminInformation {
+    border-bottom:  0.5px solid #355e7ee8;
+
+}
+.adminProfile{
+    background: #E5E5E5;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-top:20%;
+}
+
+.initialText{
+    padding-top: 5%;
+    margin: 0 10% 0%; 
+    display: flex;
+    justify-content: space-between;
+}
+.initialText h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #F1717F;
+}
+
+.initialText h5 u {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #F1717F;
+}
+
+.personalData {
+    margin: 0 10%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 7px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #355E7E;
+}
+
+.personalData h5 u {
+    padding-left: 70%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #F1717F;
+
+}
+.offersData{
+    margin: 5% 10%;
+}
+.offersData h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 10px;
+    letter-spacing: -0.02em;
+    color: #F1717F;
+}
+
+.offersData p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: -0.02em;
+    color: #355E7E;
+}
+
+.offersData h5{
+    padding-left: 40%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
+}
+.applications{
+    margin: 5% 5%;
+}
