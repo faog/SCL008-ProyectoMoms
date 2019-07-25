@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import build from '../img/working.png';
 import './css/templateBuild.css';
 
-
 class templateBuild extends Component {
   render() {
     return (

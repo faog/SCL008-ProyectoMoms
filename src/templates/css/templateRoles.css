@@ -47,6 +47,19 @@
     margin: 5% 15%;
     
 }
+.rolesPage spam a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: left;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
+}
+
 
 .profesionist{
     width: 70%;
