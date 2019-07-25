@@ -16,5 +16,4 @@ class ComponentVisualOffers extends Component {
     );
   }
 }
-
 export default ComponentVisualOffers;
