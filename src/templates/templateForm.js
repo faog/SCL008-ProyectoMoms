@@ -10,7 +10,6 @@ import ComponentVisualButton from '../components/componentVisualButton';
 import { FirebaseContext } from '../data/firebase';
 import './css/templateForm.css';
 
-
 const selectFile = require('../data/informationSelect');
 
 class templateForm extends Component {
