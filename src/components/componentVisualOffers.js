@@ -44,6 +44,7 @@ class ComponentVisualOffers extends Component {
               <ComponentVisualButton
                 name="Ver postulantes"
                 className="btn_show"
+                type="button"
                 buttonOnClick={() => {
                   this.handleOpen();
                 }}

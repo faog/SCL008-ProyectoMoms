@@ -62,7 +62,7 @@ class templateProfileEnterprise extends Component {
         </article>
         <h3 className="sale">Ver todas las ofertas realizadas</h3>
         <ComponentVisualButton
-            type="submit"
+            type="button"
             name="Crear nueva oferta laboral"
             className="btn_profilenew"
             buttonOnClick={(evt) => {
