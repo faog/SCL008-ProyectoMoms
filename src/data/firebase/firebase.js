@@ -57,7 +57,7 @@ class Firebase {
         const data = user.data();
         if(data.idioma === application.idioma)
         {
-          if(data.idiomaNivel === application.idiomaNivel) 
+          if(data.idiomaNivel === application.nivelIdioma) 
           {
             ranking = ranking + 15;
           }
