@@ -37,7 +37,7 @@
     "test": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "firebase deploy --only hosting"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -54,7 +54,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://faog.github.io/SCL008-ProyectoMoms",
+  "homepage": "https://proyecto-moms.firebaseapp.com/",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",

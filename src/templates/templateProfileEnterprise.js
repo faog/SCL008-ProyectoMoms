@@ -29,14 +29,15 @@ class templateProfileEnterprise extends Component {
       <div className="offers">
         <br></br>
         <h3>Últimas ofertas realizadas</h3>
-        <ComponentVisualOffers></ComponentVisualOffers>
       </div>
       <div>
+      <ComponentVisualOffers></ComponentVisualOffers>
+      <br></br>
       <h5><u>Ver todas las ofertas realizadas</u></h5>
         <ComponentVisualButton
        type="submit"
        name="Crear nueva oferta laboral"
-       className="btn_login"
+       className="btn_login2"
         buttonOnClick={(evt) => {
           this.sendToDataBase(evt);
         }}
