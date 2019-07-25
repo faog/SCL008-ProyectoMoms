@@ -1,69 +1,89 @@
-.templateProfile{
+.templateProfile {   
+	padding-top: 25%;
 	background: #EEEEEE;
-	padding: 5%;
-	width: 375px;
-	height: 729px;	
-}
+} 
 
-
-.templateProfile h3{
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	align-items: center;
-	letter-spacing: -0.02em;
-	color: #F1717F;
-}
-
-
-.templateProfile h5{
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	align-items: left;
-	letter-spacing: -0.02em;
-	color: #F1717F;
-	text-align: right;
-}
-
-.templateProfile p{
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 10px;
-	letter-spacing: -0.02em;
-	color: #355E7E;
-}
-
-.profile {   
-    width: 80%;
-    height: 100%;
-	display: flex;
+.firstSectionProfile{
+	display:flex;
 	justify-content: space-between;
-	padding-top: 20%;
+	padding-left: 9%;
+    padding-right: 8%;
+}
+.firstSectionProfile h2 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+color: #F1717F;
+	}
+
+.firstSectionProfile h5 a	{
+		font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.02em;
+text-decoration-line: underline;
+color: #F1717F;
 }
 
-.offers{
-	border-top: 0.5px solid #355E7E;
-}
-.logo-bci{
-    width: '20%';
+.bodyProfile{
+	display: flex;
 }
 
-.btn_profilenew{
-    width: 80%;
-    height: 45px;
-    left: 12.5%;
-	margin: 10% 10%;
-	margin-top: 110%;
-    background: #F1717F;
-    border-radius: 5px;
-    color: #FFFFFF;
+.bodyProfile img{
+	padding-right: 4%;
+    padding-left: 7%;
+    height: 40%;
+}
+
+.textProfile{
+	padding-top: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 7px;
+    align-items: center;
+    letter-spacing: -0.02em;
+	color: #355E7E;
+	
+}
+
+.textProfile h5 a{
+	padding-left: 51%;
+    text-align: right;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
+}
+
+.profileInfo {
+	border-bottom-color: 1px black;
+	border-bottom:solid;
+}
+
+.offersInfo h3{
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
     font-size: 18px;
-    border: none;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #F1717F;
 }
