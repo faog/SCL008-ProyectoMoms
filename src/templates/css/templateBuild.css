@@ -6,9 +6,26 @@
     background-position-x: 40%, 50%;
     background-position-y: 20%, 50%;
     height: 730px;
-    width: 100%;
 }
+.buildPage h5 {
+    padding-top: 20%;
+    text-align: right;
+}
+
+.buildPage h5 a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
+}
+
 .buildImg{
-    margin-top: 30%;
+    margin-top: 20%;
     width: 100%;
 }

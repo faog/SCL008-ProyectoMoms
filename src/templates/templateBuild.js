@@ -3,11 +3,12 @@ import build from '../img/working.png';
 import './css/templateBuild.css';
 
 
-class templatebuildpage extends Component {
+class templateBuild extends Component {
   render() {
     return (
       <React.Fragment>
         <article className="buildPage">
+          <h5><a href="/">Volver</a></h5>
           <img src={build} className="buildImg" alt="buildImg" />
         </article>
       </React.Fragment>
@@ -15,4 +16,4 @@ class templatebuildpage extends Component {
   }
 }
 
-export default templatebuildpage;
+export default templateBuild;
