@@ -10,20 +10,20 @@ header{
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 22px;
+	line-height: 18px;
 	display: flex;
 	align-items: center;
 	letter-spacing: -0.02em;
 	color: #F1717F;
 }
 
-.templateform h5{	
+.templateAuth h5{	
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
-	line-height: 22px;
+	line-height: 18px;
 	display: flex;
 	align-items: center;
 	letter-spacing: -0.02em;
@@ -34,27 +34,8 @@ header{
 .firstText{
 	display: flex;
 	justify-content: space-between;
-	padding-top:25%;
+	padding-top:5%;
 	margin: 0px 30px;
-}
-
-Form{
-	margin: 0px 40px;
-}
-.form{
-	height: 100%;
-}
-.form-label {
-	padding-top:20px;
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	line-height: 18px;
-	display: flex;
-	align-items: center;
-	letter-spacing: -0.02em;
-	color: #355E7E;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -62,7 +43,7 @@ Form{
 	opacity: 1; /* Firefox */
 }
 
-.form-control{
+.templateAuth form-control{
 	width: 100%;
 	height: 35px;
 	margin-top: 5px;	
@@ -73,7 +54,7 @@ Form{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 18px;
 	display: flex;
 	align-items: center;
@@ -86,7 +67,7 @@ textarea {
 }
 
 .btn_login{
-        width: 70%;
+        width: 20%;
         height: 45px;
         left: 12.5%;
         margin: 10% 10%;
