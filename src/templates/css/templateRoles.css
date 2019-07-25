@@ -10,8 +10,9 @@
     color:rgba(245, 245, 245, 0.89);
     height: 100%;
 }
-.rolesPage h5 {
-    padding-top: 20%;
+.rolesPage h5 a {
+    padding-top: 25%;
+    margin: 0 80%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
