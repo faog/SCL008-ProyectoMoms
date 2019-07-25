@@ -40,7 +40,7 @@ function App() {
           <NavLink className="menu-item" to="/temporal" exact activeClassName="active">
           Contáctanos
           </NavLink>
-          <NavLink className="menu-item" to="/profile" exact activeClassName="active">
+          <NavLink className="menu-item" to="/perfilEmpresa" exact activeClassName="active">
             Mi Cuenta
           </NavLink>
           <NavLink className="menu-item" to="/" exact activeClassName="active">
