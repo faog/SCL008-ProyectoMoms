@@ -29,6 +29,7 @@
 }
 
 .message {
+    margin: 0%;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: normal;
@@ -63,4 +64,9 @@
     color: #FFFFFF;
     font-size: 18px;
     border: none;
+}
+
+.close-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
 }

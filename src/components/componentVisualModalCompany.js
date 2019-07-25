@@ -1,10 +1,11 @@
+/* eslint-disable react/button-has-type */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import './css/componentVisualModal.css';
 
 
-const ComponentVisualModal = (props) => {
+const ComponentVisualModalCompany = (props) => {
   if (!props.isOpen) {
     return null;
   }
@@ -15,7 +16,9 @@ const ComponentVisualModal = (props) => {
           <p className="confirmation">{props.confirmation}</p>
           <h2 className="message">{props.message}</h2>
           <p className="text">{props.text}</p>
-          <button className="close-btn" onClick={props.onClose}>Entendido</button>
+          <button className="close-btn" onClick={props.onClose}>
+            <a href="/perfilEmpresa">Entendido</a>
+          </button>
         </div>
       </div>
     </div>
@@ -23,4 +26,4 @@ const ComponentVisualModal = (props) => {
 };
 
 
-export default ComponentVisualModal;
+export default ComponentVisualModalCompany;
