@@ -26,8 +26,8 @@ class templateHome extends Component {
             <h1>Conectamos talento femenino con las mejores compañías que tienen ofertas flexibles para ellas</h1>
           </div>
           <div className="call2Action">
-            <ComponentVisualButton name="Unete" className="join" buttonOnClick={evt => this.redirect('/roles', evt)} />
-            <ComponentVisualButton name="Ingresa" className="enter" buttonOnClick={evt => this.redirect('/auth', evt)} />
+            <ComponentVisualButton name="Unete" className="join" buttonOnClick={evt => this.redirect('/tipoPerfil', evt)} />
+            <ComponentVisualButton name="Ingresa" className="enter" />
             <h4>Conoce más</h4>
             <FontAwesomeIcon className="arrowDown" icon={faArrowAltCircleDown} />
           </div>

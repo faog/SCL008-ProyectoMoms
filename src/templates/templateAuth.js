@@ -42,8 +42,8 @@ class templateAuth extends Component {
         {firebase => (
           <section className="templateAuth">
             <div className="firstText">
-              <h3>Necesitamos tus datos</h3>
-              <h5><u>Volver</u></h5>
+            <h3>Necesitamos tus datos</h3>
+            <h5><a href='/tipoPerfil'>Volver</a></h5>
             </div>
             <Form onSubmit={(event) => { this.handleSubmit(event); }}>
               <ComponentVisualInput message="Nombre y apellido" className="datesenterprise col-xs-12" placeholder="Juan Perez" validate={this.validateName} name="nombre" />

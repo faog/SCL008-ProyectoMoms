@@ -21,41 +21,41 @@ function App() {
       <header className="navbar">
         <Menu className="collapse">
           <h2>Menú</h2>
-          <NavLink className="menu-item" to="/" exact activeClassName="active">
+          <NavLink className="menu-item" to="/temporal" exact activeClassName="active">
             Sobre Nosotros
           </NavLink>
-          <a className="menu-item" href="/">
+          <NavLink className="menu-item" to="/temporal" exact activeClassName="active">
           Servicios
-          </a>
-          <a className="menu-item" href="/">
+          </NavLink>
+          <NavLink className="menu-item" to="/temporal" exact activeClassName="active">
           Advisors
-          </a>
-          <a className="menu-item" href="/">
+          </NavLink>
+          <NavLink className="menu-item" to="/temporal" exact activeClassName="active">
           PM Academy
-          </a>
-          <a className="menu-item" href="/">
+          </NavLink>
+          <NavLink className="menu-item" to="/temporal" exact activeClassName="active">
           Blog
-          </a>
-          <a className="menu-item" href="/">
+          </NavLink>
+          <NavLink className="menu-item" to="/temporal" exact activeClassName="active">
           Contáctanos
-          </a>
+          </NavLink>
           <NavLink className="menu-item" to="/profile" exact activeClassName="active">
             Mi Cuenta
           </NavLink>
-          <a className="menu-item" href="/">
+          <NavLink className="menu-item" to="/" exact activeClassName="active">
           Cerrar Sesión
-          </a>
+          </NavLink>
         </Menu>
         <NavLink to="/" exact activeClassName="active"><img src={logo} alt="MomsLogo" /></NavLink>
       </header>
       <main>
         <Switch>
           <Route path="/" exact component={templateHome} />
-          <Route path="/formulario" component={templateForm} />
-          <Route path="/auth" component={templateAuth} />
-          <Route path="/profile" component={templateProfileEnterprise} />
-          <Route path="/roles" component={templateRoles} />
-          <Route path="/admin" component={templateAdmin} />
+          <Route path="/postulacion" component={templateForm} />
+          <Route path="/registroEmpresa" component={templateAuth} />
+          <Route path="/perfilEmpresa" component={templateProfileEnterprise} />
+          <Route path="/tipoPerfil" component={templateRoles} />
+          <Route path="/perfilAdmin" component={templateAdmin} />
         </Switch>
       </main>
     </Router>

@@ -5,8 +5,9 @@
 	height: 729px;	
 }
 
+
 .templateProfile h3{
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -16,8 +17,9 @@
 	color: #F1717F;
 }
 
+
 .templateProfile h5{
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -27,8 +29,9 @@
 	color: #F1717F;
 	text-align: right;
 }
+
 .templateProfile p{
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -36,13 +39,15 @@
 	letter-spacing: -0.02em;
 	color: #355E7E;
 }
-.profile
-{   margin-top: 13%;
+
+.profile {   
     width: 80%;
-	height: 100%;
-	display: contents;
-	
+    height: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20%;
 }
+
 .offers{
 	border-top: 0.5px solid #355E7E;
 }

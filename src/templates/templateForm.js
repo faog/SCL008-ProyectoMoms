@@ -66,7 +66,7 @@ class templateForm extends Component {
         <section className="templateform">
           <div className="firstTextOne">
             <h3>Nueva oferta Laboral</h3>
-            <h5><u>Volver</u></h5>
+            <h5><a href='/perfilEmpresa'>Volver</a></h5>
           </div>
           <Form onSubmit={(event)=> {this.sendToDataBase(event)}}>
             <ComponentVisualInput message="Nombre del cargo" placeholder="Administradora" className="cleanform jobposition col-xs-12" validate={this.validateName} name="nombreCargo"/>

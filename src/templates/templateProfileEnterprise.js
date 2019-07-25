@@ -43,6 +43,7 @@ class templateProfileEnterprise extends Component {
           />
         </div>
       </section>
+
     );
   }
 }
