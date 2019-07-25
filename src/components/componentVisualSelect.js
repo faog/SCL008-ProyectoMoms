@@ -12,7 +12,7 @@ class ComponentVisualSelect extends Component {
           <Form.Label>{this.props.message}</Form.Label>
         </Col>
         <Col>
-          <Form.Control as="select" name={this.props.name ? this.props.name : ''}>
+          <Form.Control className={this.props.className} as="select" name={this.props.name ? this.props.name : ''}>
             <option>Selecciona...</option>
             {optionvalues.map(optionvalue => (
               <option key={optionvalue}>{optionvalue}</option>

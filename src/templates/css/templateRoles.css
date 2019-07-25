@@ -1,4 +1,4 @@
-  
+
 .rolesPage {
     padding: 5%; 
     background-image: url("../../img/fondo-2.jpg");
@@ -10,8 +10,13 @@
     color:rgba(245, 245, 245, 0.89);
     height: 100%;
 }
+
 .rolesPage h5 {
     padding-top: 20%;
+    text-align: right;
+}
+
+.rolesPage h5 a {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
