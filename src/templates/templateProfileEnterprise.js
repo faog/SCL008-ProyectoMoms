@@ -21,30 +21,26 @@ class templateProfileEnterprise extends Component {
   render() {
     return (
       <section className="templateProfile">
-        <Container className="profile">
-          <Row>
-            <Col xs="4" className="colProfile">
-              <h3>Mi perfil</h3>
-              <img src={logoBci} className="logo-bci" alt="logo" />
-            </Col>
-            <Col xs="8">
-              <h5><u>Volver</u></h5>
-              <br />
+        <article className="profileInfo">
+          <div className="firstSectionProfile">
+            <h2>Mi perfil</h2>
+            <h5><a href="/">Volver</a></h5>
+          </div>
+          <div className="bodyProfile">
+            <img src={logoBci} className="logo-bci" alt="logo" />
+            <div className="textProfile">
               <p>Banco BCI</p>
               <p>Alejandra López</p>
               <p>alendralopez@bci.com</p>
-              <h5><u>Configuración</u></h5>
-            </Col>
-          </Row>
-        </Container>
-        <div className="offers">
-          <br />
-          <h3>Últimas ofertas realizadas</h3>
+              <h5><a href="/temporal">Configuración</a></h5>
+            </div>
+          </div>
+          <hr />
+        </article>
+        <article className="offersInfo">
+        <h3>Últimas ofertas realizadas</h3>
           <ComponentVisualOffers />
-        </div>
-        <div>
-          <h5><u>Ver todas las ofertas realizadas</u></h5>
-          <ComponentVisualButton
+          {/* <ComponentVisualButton
             type="submit"
             name="Crear nueva oferta laboral"
             className="btn_profilenew"
@@ -52,8 +48,8 @@ class templateProfileEnterprise extends Component {
               this.redirect('/postulacion', evt);
             }
             }
-          />
-        </div>
+          /> */}
+        </article>
       </section>
 
     );
