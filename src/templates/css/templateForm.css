@@ -34,7 +34,7 @@ header{
 .firstTextOne{
 	display: flex;
 	justify-content: space-between;
-	padding-top:25%;
+	padding-top:5%;
 	margin: 0px 30px;
 }
 
@@ -43,6 +43,9 @@ Form{
 }
 .form{
 	height: 100%;
+}
+.form-group{
+	margin-bottom: 1%;
 }
 .form-label {
 	padding-top:20px;

@@ -5,12 +5,13 @@ import {
 import { slide as Menu } from 'react-burger-menu';
 import templateHome from './templates/templateHome';
 import templateAuth from './templates/templateAuth';
+import templatebuildpage from './templates/templatebuildpage';
 import templateForm from './templates/templateForm';
 import templateProfileEnterprise from './templates/templateProfileEnterprise';
 import templateRoles from './templates/templateRoles';
-
 import './App.css';
 import logo from './img/1111.png';
+
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/" exact component={templateHome} />
           <Route path="/formulario" component={templateForm} />
           <Route path="/auth" component={templateAuth} />
+          <Route path="/build" component={templatebuildpage} />
           <Route path="/profile" exact component={templateProfileEnterprise} />
           <Route path="/roles" exact component={templateRoles} />
         </Switch>
