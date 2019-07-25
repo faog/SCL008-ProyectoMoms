@@ -39,6 +39,9 @@ header ul {
   font-size: 28px;
   line-height: 37px;
   color: #FFFFFF;
+  /* outline-color:pink; */
+  outline-width: 0px;
+
 }
 
 /* Individual item */
@@ -59,7 +62,8 @@ header ul {
 
 /* Change color on hover */
 .bm-item:hover {
-  color: white;
+  color: #F1717F;
+  cursor: pointer;
 }
 
 /* The rest copied directly from react-burger-menu docs */
