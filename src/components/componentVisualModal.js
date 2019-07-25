@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 import React from 'react';
@@ -15,12 +16,13 @@ const ComponentVisualModal = (props) => {
           <p className="confirmation">{props.confirmation}</p>
           <h2 className="message">{props.message}</h2>
           <p className="text">{props.text}</p>
-          <button className="close-btn" onClick={props.onClose}>Entendido</button>
+          <button className="close-btn" onClick={props.onClose}>
+            <a href="/">Entendido</a>
+          </button>
         </div>
       </div>
     </div>
   );
 };
-
 
 export default ComponentVisualModal;
