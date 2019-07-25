@@ -90,9 +90,9 @@ class templateForm extends Component {
               }}
             />
             <ComponentVisualModal
-              confirmation="Se ha creado tu cuenta"
-              message="¡Felicitaciones!"
-              text="te hemos enviado un correo de verificación"
+              confirmation="Se ha realizado tu solicitud"
+              message="¡Genial!"
+              text="te avisaremos cuando encontremos las mejores candidatas para ti"
               onClose={this.handleCloseModal}
               isOpen={this.state.onOpen}
             />
