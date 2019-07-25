@@ -1,3 +1,5 @@
+/* eslint-disable import/no-named-as-default-member */
+/* eslint-disable import/no-named-as-default */
 import React from 'react';
 import {
   BrowserRouter as Router, Route, Switch, NavLink,
@@ -8,6 +10,7 @@ import templateAuth from './templates/templateAuth';
 import templateForm from './templates/templateForm';
 import templateProfileEnterprise from './templates/templateProfileEnterprise';
 import templateRoles from './templates/templateRoles';
+import templateAdmin from './templates/templateAdmin';
 
 import './App.css';
 import logo from './img/1111.png';
@@ -50,8 +53,9 @@ function App() {
           <Route path="/" exact component={templateHome} />
           <Route path="/formulario" component={templateForm} />
           <Route path="/auth" component={templateAuth} />
-          <Route path="/profile" exact component={templateProfileEnterprise} />
-          <Route path="/roles" exact component={templateRoles} />
+          <Route path="/profile" component={templateProfileEnterprise} />
+          <Route path="/roles" component={templateRoles} />
+          <Route path="/admin" component={templateAdmin} />
         </Switch>
       </main>
     </Router>
