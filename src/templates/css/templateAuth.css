@@ -86,13 +86,13 @@ textarea {
 }
 
 .btn_login{
-        width: 70%;
-        height: 45px;
-        left: 12.5%;
-        margin: 10% 10%;
-        background: #F1717F;
-        border-radius: 5px;
-        color: #FFFFFF;
-        font-size: 18px;
-        border: none;
+	width: 100%;
+	height: 45px;
+	left: 12.5%;
+	margin: 10% 0%;
+	background: #F1717F;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 18px;
+	border: none;
 }
