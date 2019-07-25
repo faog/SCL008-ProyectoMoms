@@ -1,27 +1,84 @@
 .containerOffers{
-    position: absolute; 
-    width: 90%;
+    margin: 0% 5%;
     height: 10%;
     background: #FFFFFF;
     border-radius: 5px;
 }
 .btn_show {
-    margin: 20%;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0% 10%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #355E7E; 
+    left: 47px;
+    background: #FFFFFF;
+    border: 1px solid #355E7E;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.offersInfo h3{
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     display: flex;
     align-items: center;
-    text-align: center;
+    letter-spacing: -0.02em;
+    color: #F1717F;
+    margin: 5% 5%;
+}
+
+.containerOffers h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
     letter-spacing: -0.02em;
     color: #355E7E;
-    position: absolute;
-    margin:15%; 
-    left: 47px;
-    background: #FFFFFF;
-    border: 1px solid #355E7E;
-    box-sizing: border-box;
-    border-radius: 5px;
+}
+
+.containerOffers h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #355E7E;
+
+}
+
+.containerOffers h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #355E7E;
+}
+
+.containerOffers h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
 }

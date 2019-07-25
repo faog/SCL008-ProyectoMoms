@@ -1,6 +1,8 @@
 .templateProfile {   
 	padding-top: 25%;
-	background: #EEEEEE;
+    background: #EEEEEE;
+    height:100%;
+    border-bottom: 0.5px solid #355e7ee8;
 } 
 
 .firstSectionProfile{
@@ -10,29 +12,29 @@
     padding-right: 8%;
 }
 .firstSectionProfile h2 {
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-display: flex;
-align-items: center;
-letter-spacing: -0.02em;
-color: #F1717F;
-	}
+	font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #F1717F;
+}
 
 .firstSectionProfile h5 a	{
-		font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: right;
-letter-spacing: -0.02em;
-text-decoration-line: underline;
-color: #F1717F;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #F1717F;
 }
 
 .bodyProfile{
@@ -47,7 +49,7 @@ color: #F1717F;
 
 .textProfile{
 	padding-top: 3%;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -61,7 +63,7 @@ color: #F1717F;
 .textProfile h5 a{
 	padding-left: 51%;
     text-align: right;
-	font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -71,19 +73,3 @@ color: #F1717F;
     color: #F1717F;
 }
 
-.profileInfo {
-	border-bottom-color: 1px black;
-	border-bottom:solid;
-}
-
-.offersInfo h3{
-	font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-    color: #F1717F;
-}
