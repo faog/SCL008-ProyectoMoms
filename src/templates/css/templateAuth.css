@@ -18,7 +18,7 @@ header{
 	color: #F1717F;
 }
 
-.templateform h5{	
+.templateAuth h5{	
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -70,7 +70,7 @@ Form{
 	border: 0.5px solid #355E7E;
 	box-sizing: border-box;
 	border-radius: 5px;
-	font-family: Montserrat;
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -86,13 +86,13 @@ textarea {
 }
 
 .btn_login{
-        width: 70%;
-        height: 45px;
-        left: 12.5%;
-        margin: 10% 10%;
-        background: #F1717F;
-        border-radius: 5px;
-        color: #FFFFFF;
-        font-size: 18px;
-        border: none;
+	width: 100%;
+	height: 45px;
+	left: 12.5%;
+	margin: 10% 0%;
+	background: #F1717F;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 18px;
+	border: none;
 }
