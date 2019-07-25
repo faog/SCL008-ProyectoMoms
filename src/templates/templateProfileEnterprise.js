@@ -36,7 +36,7 @@ class templateProfileEnterprise extends Component {
           <ComponentVisualButton
             type="submit"
             name="Crear nueva oferta laboral"
-            className="btn_login"
+            className="btn_profilenew"
             buttonOnClick={(evt) => {
               this.sendToDataBase(evt);
             }}
