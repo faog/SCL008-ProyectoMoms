@@ -1,3 +1,5 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ComponentVisualButton from '../components/componentVisualButton';
@@ -7,6 +9,15 @@ import './css/templateProfileEnterprise.css';
 
 
 class templateProfileEnterprise extends Component {
+  constructor(props) {
+    super(props);
+    this.redirect = this.redirect.bind(this);
+  }
+
+  redirect(path) {
+    this.props.history.push(path);
+  }
+
   render() {
     return (
       <section className="templateProfile">
@@ -38,8 +49,9 @@ class templateProfileEnterprise extends Component {
             name="Crear nueva oferta laboral"
             className="btn_profilenew"
             buttonOnClick={(evt) => {
-              this.sendToDataBase(evt);
-            }}
+              this.redirect('/postulacion', evt);
+            }
+            }
           />
         </div>
       </section>
