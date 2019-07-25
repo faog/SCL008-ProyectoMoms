@@ -11,8 +11,7 @@ class templateRoles extends Component {
   redirect(path) {
     this.props.history.push(path);
   }
-
-
+  
   render() {
     return (
       <React.Fragment>
@@ -21,8 +20,8 @@ class templateRoles extends Component {
           <h3>Únete a nuestra red</h3>
           <h1>Cuéntanos quien eres</h1>
           <ComponentVisualButton name="Soy una profesional que está buscando su siguiente oportunidad laboral" className="profesionist" buttonOnClick={evt => this.redirect('/temporal', evt)} /> 
-          <ComponentVisualButton name="Estoy buscando contratar para un puesto o proyecto en nombre de una empresa" className="enterprise" buttonOnClick={evt => this.redirect('/temporal', evt)} />
-          <span>Más información</span>
+          <ComponentVisualButton name="Estoy buscando contratar para un puesto o proyecto en nombre de una empresa" className="enterprise" buttonOnClick={evt => this.redirect('/registroEmpresa', evt)} />
+          <spam><a href="/temporal">Más información</a></spam>
         </article>
       </React.Fragment>
     );
