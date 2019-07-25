@@ -5,7 +5,7 @@ import { Form } from 'react-bootstrap';
 import ComponentVisualSelect from '../components/componentVisualSelect';
 import ComponentVisualInput from '../components/componentVisualInput';
 import ComponentVisualTextArea from '../components/componentVisualTextArea';
-import ComponentVisualModal from '../components/componentVisualModal';
+import ComponentVisualModalCompany from '../components/componentVisualModalCompany';
 import ComponentVisualButton from '../components/componentVisualButton';
 import { FirebaseContext } from '../data/firebase';
 import './css/templateForm.css';
@@ -89,10 +89,10 @@ class templateForm extends Component {
                 this.validate(evt);
               }}
             />
-            <ComponentVisualModal
-              confirmation="Se ha creado tu cuenta"
-              message="¡Felicitaciones!"
-              text="te hemos enviado un correo de verificación"
+            <ComponentVisualModalCompany
+              confirmation="Se ha realizado tu solicitud"
+              message="¡Genial!"
+              text="te avisaremos cuando encontremos las mejores candidatas para ti"
               onClose={this.handleCloseModal}
               isOpen={this.state.onOpen}
             />
