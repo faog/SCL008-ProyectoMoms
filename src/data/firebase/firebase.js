@@ -55,11 +55,22 @@ class Firebase {
       querySnapshot.forEach(user => {
         let ranking = 0;
         const data = user.data();
-        if(data.idioma === application.idioma) ranking = ranking + 20;
-        if(data.flexibilidad === application.flexibilidad) ranking = ranking + 20;
-        if(data.añosExperiencia === application.añosExperiencia) ranking = ranking + 20;
-        if(data.areaExperiencia === application.areaExperiencia) ranking = ranking + 20;
-        if(data.rangoSueldo === application.rangoSueldo) ranking = ranking + 20;
+        if(data.idioma === application.idioma)
+        {
+          if(data.idiomaNivel === application.nivelIdioma) 
+          {
+            ranking = ranking + 15;
+          }
+          else{
+            ranking = ranking + 10;
+          }
+        } 
+        if(data.flexibilidad === application.flexibilidad) ranking = ranking + 25;
+        if(data.añosExperiencia === application.añosExperiencia) ranking = ranking + 5;
+        if(data.areaExperiencia === application.areaExperiencia) ranking = ranking + 30;
+        if(data.rangoSueldo === application.rangoSueldo) ranking = ranking + 10;
+        if(data.nivelEstudios === application.nivelEstudios) ranking = ranking + 15;
+
         data.id = user.id;
         data.ranking = ranking;
         users.push(data);
